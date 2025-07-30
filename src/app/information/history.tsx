@@ -20,11 +20,11 @@ export const History = () => {
           <figcaption>Original neighbourhood</figcaption>
         </figure>
         <p className="text-2xl leading-[1.3] my-18">
-          Oia is a living, breathing village. Wander the streets and you'll find
+          Oia is a living, breathing village. Wander the streets and you&apos;ll find
           hidden courtyards and locals chatting over coffee. Skip the fancy
-          restaurants and enjoy today's catch at a family-run taverna. Catch the
+          restaurants and enjoy today&apos;s catch at a family-run taverna. Catch the
           sunset for a moment of peace. And, if you can, strike up a
-          conversation with a local - they'll tell you stories of Oia that no
+          conversation with a local - they&apos;ll tell you stories of Oia that no
           guidebook can.
         </p>
       </div>

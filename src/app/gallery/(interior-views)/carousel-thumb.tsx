@@ -1,41 +1,4 @@
-"use client";
-
-import { useEffect, useState } from "react";
-
 import Image from "next/image";
-
-type PropType = {
-  selected: boolean;
-  index: number;
-  onClick: () => void;
-};
-
-const images = [
-  "/images/gallery-image-1.png",
-  "/images/gallery-image-2.png",
-  "/images/gallery-image-3.png",
-  "/images/gallery-image-4.png",
-];
-
-const Thumb: React.FC<PropType> = (props) => {
-  const { selected, index, onClick } = props;
-
-  return (
-    <div
-      className={"embla-thumbs__slide".concat(
-        selected ? " embla-thumbs__slide--selected" : ""
-      )}
-    >
-      <button
-        onClick={onClick}
-        type="button"
-        className="embla-thumbs__slide__number"
-      >
-        {index + 1}
-      </button>
-    </div>
-  );
-};
 
 export const InteriorViewsCarouselThumb = ({
   imageSrc,

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, EB_Garamond, Roboto } from "next/font/google";
+import { EB_Garamond, Roboto } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/app/header";
 import { Footer } from "@/app/footer";
