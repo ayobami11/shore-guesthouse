@@ -6,7 +6,7 @@ export const InteriorViews = () => {
       <header className="text-center mb-24">
         <h2 className="mb-5">Interior Views</h2>
         <h3 className="text-small md:text-medium xl:text-large">
-          Uncover the guesthouse's charm and character.
+          Uncover the guesthouse&apos;s charm and character.
         </h3>
       </header>
       <InteriorViewsCarousel />
