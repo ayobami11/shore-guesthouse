@@ -4,6 +4,9 @@ import "./globals.css";
 import { Header } from "@/app/header";
 import { Footer } from "@/app/footer";
 
+import "aos/dist/aos.css";
+import { AOSInit } from "./aos";
+
 const ebGaramond = EB_Garamond({
   variable: "--font-garamond",
   subsets: ["latin"],
@@ -29,6 +32,8 @@ export default function RootLayout({
       <body
         className={`${ebGaramond.variable} ${roboto.variable} antialiased`}
       >
+        <AOSInit />
+
         <Header />
         {children}
         <Footer />

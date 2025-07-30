@@ -10,7 +10,7 @@ export const ExteriorViews = () => {
         </h3>
       </header>
       <div>
-        <div className="flex flex-col justify-center gap-12 mb-24 md:flex-row">
+        <div data-aos="fade-up" className="flex flex-col justify-center gap-12 mb-24 md:flex-row">
           <figure className="grow max-w-[450px]">
             <div className="relative w-full h-[260px] mb-4.5">
               <Image src="/images/exterior-view-1.png" alt="" fill />
@@ -24,7 +24,7 @@ export const ExteriorViews = () => {
             <figcaption>The Lounge Room.</figcaption>
           </figure>
         </div>
-        <figure>
+        <figure data-aos="fade-up">
           <div className="relative w-full h-[800px] mb-4.5">
             <Image src="/images/exterior-view-3.png" alt="" fill />
           </div>

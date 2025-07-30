@@ -15,7 +15,7 @@ export const InteriorViewsCarouselThumb = ({
     <button
       key={index}
       onClick={onClick}
-      className={`overflow-hidden transition-all relative duration-200 w-[66px] h-[66px] hover:-translate-y-2 hover:rotate-6 ${
+      className={`overflow-hidden shrink-0 transition-all relative duration-200 w-[66px] h-[66px] hover:-translate-y-2 hover:rotate-6 ${
         selected ? "border-8 border-[#e5cbad]" : "border-transparent opacity-50 cursor-pointer"
       }`}
     >

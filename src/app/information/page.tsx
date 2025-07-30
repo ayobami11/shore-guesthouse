@@ -11,13 +11,12 @@ const InformationPage = () => {
     <main className="font-garamond mt-20">
       <Hero />
       <div className="mx-[10%]">
-
-      <Story />
-      <hr className="border-black" />
-      <History />
+        <Story />
+        <hr className="border-black" />
+        <History />
       </div>
       <Visit />
-      <div className="relative h-[150vh] mx-[10%] my-32">
+      <div data-aos="fade" className="relative h-[150vh] mx-[10%] my-32">
         <Image src="/images/information-screen-img.png" alt="" fill />
       </div>
       <Getaway />
