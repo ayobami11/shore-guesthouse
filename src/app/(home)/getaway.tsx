@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import { roboto } from "@/app/fonts";
 
 export const Getaway = () => {
@@ -11,9 +13,12 @@ export const Getaway = () => {
         <h3 className="text-small text-white mb-6 md:text-medium xl:text-large">
           Summer 2025 Dates Available
         </h3>
-        <button className={`${roboto.className} text-black bg-white rounded-4xl px-8 py-4 cursor-pointer transition ease-in-out hover:bg-[#e5cbad]`}>
+        <Link
+          href="/book"
+          className={`${roboto.className} text-black bg-white rounded-4xl px-8 py-4 cursor-pointer transition ease-in-out hover:bg-[#e5cbad]`}
+        >
           Book now
-        </button>
+        </Link>
       </div>
     </div>
   );

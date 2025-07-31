@@ -49,7 +49,7 @@ export const Header = () => {
           </li>
           <li className="grow flex text-center text-white bg-black hover:bg-[#e5cbad] hover:text-black">
             <Link
-              href="#"
+              href="/book"
               className="py-3.5 border-l border-l-black w-full  hover:border-l-transparent"
             >
               Book now

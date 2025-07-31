@@ -20,7 +20,7 @@ export const HamburgerMenu = ({ open }: { open: boolean }) => {
         </li>
         <li className="flex">
           <Link
-            href="#"
+            href="/book"
             className="py-[1.6875rem] w-full text-white bg-black hover:bg-[#e5cbad] hover:text-black"
           >
             Book now
