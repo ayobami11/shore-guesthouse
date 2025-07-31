@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { roboto } from "@/app/layout";
 
 export const Footer = () => {
   return (
@@ -9,7 +10,7 @@ export const Footer = () => {
         <Image src="images/imgi_21_default.svg" alt="" fill />
       </div>
 
-      <div className="font-roboto mb-20">
+      <div className={`${roboto.className} mb-20`}>
         <p>&copy; 2025 All Rights Reserved</p>
         <address className="not-italic">
           <a

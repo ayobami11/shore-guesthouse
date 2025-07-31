@@ -19,7 +19,7 @@ export function NeighborhoodCarousel() {
 
   return (
     <div className="relative w-full overflow-hidden">
-      <div className="flex gap-x-18 w-max animate-marquee-effect">
+      <div className="flex gap-x-18 w-max animate-marquee-effect-gallery">
         {images.map((imageSrc, index) => (
           <div
             key={index}

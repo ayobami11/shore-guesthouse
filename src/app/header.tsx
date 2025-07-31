@@ -7,6 +7,8 @@ import { useEffect, useState } from "react";
 
 import { HamburgerMenu } from "@/app/hamburger-menu";
 
+import { roboto } from "@/app/layout";
+
 export const Header = () => {
   const pathname = usePathname();
 
@@ -27,7 +29,7 @@ export const Header = () => {
         <Link href="/">Shore Guesthouse</Link>
       </h1>
 
-      <nav className="hidden md:block md:w-full md:max-w-[500px]">
+      <nav className={`${roboto.className} hidden md:block md:w-full md:max-w-[500px]`}>
         <ul className="flex w-full">
           <li className="grow flex text-center">
             <Link

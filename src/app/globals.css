@@ -51,10 +51,8 @@
   --text-medium: 2.4375rem;
   --text-large: 3rem;
 
-  --font-garamond: "EB Garamond", "serif";
-  --font-roboto: "Roboto", "sans-serif";
-
-  --animate-marquee-effect: marquee-effect 150s linear infinite;
+  --animate-marquee-effect-home: marquee-effect 30s linear infinite;
+  --animate-marquee-effect-gallery: marquee-effect 300s linear infinite;
 
   @keyframes marquee-effect {
     0% {
@@ -62,7 +60,7 @@
     }
 
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-100%);
     }
   }
 }

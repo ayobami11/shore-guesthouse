@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { roboto } from "@/app/layout";
+
 export const Getaway = () => {
   return (
     <header>
@@ -11,7 +13,7 @@ export const Getaway = () => {
           <h3 className="text-small text-white mb-6 md:text-medium xl:text-large">
             Summer 2025 Dates Available
           </h3>
-          <button className="font-roboto text-black bg-white rounded-4xl px-8 py-4 cursor-pointer transition ease-in-out hover:bg-[#e5cbad]">
+          <button className={`${roboto.className} text-black bg-white rounded-4xl px-8 py-4 cursor-pointer transition ease-in-out hover:bg-[#e5cbad]`}>
             Book now
           </button>
         </div>
