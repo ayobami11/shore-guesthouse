@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 import { HamburgerMenu } from "@/app/hamburger-menu";
 
-import { roboto } from "@/app/layout";
+import { roboto } from "@/app/fonts";
 
 export const Header = () => {
   const pathname = usePathname();

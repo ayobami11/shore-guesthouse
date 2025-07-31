@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { roboto } from "@/app/layout";
+import { roboto } from "@/app/fonts";
 
 export const Getaway = () => {
   return (

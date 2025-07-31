@@ -1,19 +1,9 @@
 import type { Metadata } from "next";
-import { EB_Garamond, Roboto } from "next/font/google";
 import "./globals.css";
-// import { Header } from "@/app/header";
-// import { Footer } from "@/app/footer";
 
 import "aos/dist/aos.css";
-// import { AOSInit } from "./aos";
 
-const ebGaramond = EB_Garamond({
-  subsets: ["latin"],
-});
-
-export const roboto = Roboto({
-  subsets: ["latin"],
-});
+import { ebGaramond } from "@/app/fonts";
 
 const metadata: Metadata = {
   title: "Shore Guesthouse",
